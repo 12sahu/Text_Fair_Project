@@ -1,17 +1,19 @@
-# Taxi Fare Predictor
+# 🚖 Taxi Fare Predictor
+## 🧾 About the Project
+An end-to-end machine learning project that predicts taxi fare prices based on trip details such as pickup and dropoff locations, time, and passenger count.
+This project focuses on understanding how distance, time, and travel patterns influence fare amounts, while demonstrating the complete data science workflow — from cleaning and feature engineering to model training and evaluation.
 
+## 🧩 What I Did
+🧹 Cleaned and explored real-world taxi trip data
+🧮 Engineered meaningful features such as trip distance (using the Haversine formula) and time-based attributes (hour, day, weekday)
+🤖 Trained and compared multiple regression models — Linear Regression, Decision Tree, Random Forest, and Gradient Boosting
+📊 Visualized trends and relationships between features and fare amount
+📈 Evaluated models using metrics like MAE, RMSE, and R² to identify the best-performing model
 
-## About the Project:
-An end-to-end machine learning project that predicts taxi fares using trip data. The focus is on understanding how distance, time, and location affect fare prices and building a reliable model for prediction.
-## What I Did:
-Cleaned and explored real-world trip data
+## 🛠️ Skills & Tools
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-Engineered meaningful features like trip distance and time of day
-
-Trained multiple regression models and compared performance
-
-Visualized key trends and evaluated accuracy using standard metrics
-## Skills & Tools:
-Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
-## Outcome:
-Achieved a well-performing prediction model with valuable insights — distance and travel time were the strongest indicators of fare amount.
+## 🎯 Outcome
+✅ Developed a reliable fare prediction model with strong performance
+✅ Gained valuable insights — trip distance and travel time were found to be the strongest predictors of fare amount
+✅ Showcased practical application of data preprocessing, feature engineering, and model evaluation in a real-world scenario
